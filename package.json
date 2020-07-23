@@ -1,0 +1,33 @@
+{
+  "name": "hackney-interview-test",
+  "version": "1.0.0",
+  "description": "Hackney Interview Test",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seyi-Baks/Hackney-Interview-Test.git"
+  },
+  "author": "Seyi Bakare",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seyi-Baks/Hackney-Interview-Test/issues"
+  },
+  "homepage": "https://github.com/Seyi-Baks/Hackney-Interview-Test#readme",
+  "dependencies": {
+    "axios": "^0.19.2",
+    "chai": "^4.2.0",
+    "config": "^3.3.1",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mocha": "^8.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  }
+}
